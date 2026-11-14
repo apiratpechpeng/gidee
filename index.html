@@ -39,6 +39,8 @@
 
 
 * { box-sizing: border-box; }
+/* v28 ให้ attribute hidden ซ่อนได้จริงเสมอ (เดิม .field-checkbox { display:flex } ทับ hidden ทำให้ช่องผู้ปกครองโผล่ตลอด) */
+[hidden] { display: none !important; }
 
 body {
   margin: 0;
